@@ -1,22 +1,14 @@
 # contoh-project
-# 🚀 OSPF + DHCP Network Lab (Cisco Packet Tracer)
+# 🚀 Make a cisco documentation project 
 
 ## 🧠 Overview
 
-This lab demonstrates a example to make a project.
-
-- 🔁 any of routing across 3 routers
-- 🆔 Loopback interfaces for stable Router IDs
-- 🚫 Passive interfaces for LAN security
-- 🌐 DHCP Server enabled on Router2
-- 💻 PC-to-PC communication across different subnets
-
+This lab demonstrates a example how to make a project.
 ---
 
 ## 🖥️ Topology
 
-[PC1]---[SW1]---[Router1]---[Router2]---[Router3]---[SW3]---[PC3] | DHCP Server
-
+(Please input your topology in here)
 
 ---
 
@@ -24,7 +16,7 @@ This lab demonstrates a example to make a project.
 
 ospf-dhcp-project/ ├── OSPF-DHCP.pkt ← Packet Tracer project file ├── README.md ← This file └── configs/ ├── Router1.txt ├── Router2.txt └── Router3.txt
 
-
+(Structure of your project)
 ---
 
 ## 🛠️ Technologies Used
@@ -34,6 +26,8 @@ ospf-dhcp-project/ ├── OSPF-DHCP.pkt ← Packet Tracer project file ├─
 - DHCP configuration on Router2
 - Loopback interfaces as Router ID
 - Passive Interface for LAN ports
+
+  (What things are use on this project)
 
 ---
 
@@ -47,6 +41,8 @@ ospf-dhcp-project/ ├── OSPF-DHCP.pkt ← Packet Tracer project file ├─
    - `show ip ospf neighbor`
    - `show ip route ospf`
    - `show ip dhcp binding`
+  
+   (Prove your project by)
 
 ---
 
@@ -58,6 +54,7 @@ ospf-dhcp-project/ ├── OSPF-DHCP.pkt ← Packet Tracer project file ├─
 | Router2 | **DHCP Server**, OSPF with `router-id 2.2.2.2`, passive LAN |
 | Router3 | OSPF with `router-id 3.3.3.3`, receives routes via OSPF |
 
+(If you have any requirement or a notes, write on this side)
 ---
 
-✅ Project built and tested by [Shahin Akbari] using Cisco Packet Tracer
+✅ Project built and tested by (your name) using Cisco Packet Tracer
